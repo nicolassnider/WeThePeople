@@ -1,9 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using NUnit.Framework;
-using NUnit.Framework.Internal;
-using System.Numerics;
-
 internal class Program
 {
     public static void Main(string[] args)
