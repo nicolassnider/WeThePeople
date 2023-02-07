@@ -24,6 +24,14 @@ internal class Program
         Encrypt(theRocks);
         Console.WriteLine("\n");
 
+        foreach (var item in args)
+        {
+            Console.WriteLine(item);
+            Encrypt(item);
+            Console.WriteLine("\n");
+        }
+
+
         void Encrypt(string input)
         {
             //delete whitespaces
