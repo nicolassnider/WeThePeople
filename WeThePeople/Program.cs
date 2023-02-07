@@ -18,14 +18,7 @@ internal class Program
         var theRocks = "the rocks";
         Console.WriteLine(theRocks);
         Encrypt(theRocks);
-        Console.WriteLine("\n");
-
-        foreach (var item in args)
-        {
-            Console.WriteLine(item);
-            Encrypt(item);
-            Console.WriteLine("\n");
-        }
+        Console.WriteLine("\n");          
 
 
         void Encrypt(string input)
